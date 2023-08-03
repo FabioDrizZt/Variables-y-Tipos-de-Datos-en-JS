@@ -35,7 +35,8 @@ let estudiante = {
 console.table(estudiante.notas); 
 
 let sumar = function(a,b){
-  console.log(a+b);
+ return a+b
 }
 
-sumar(4,5)
+let resultado = sumar(4,5)
+console.log(resultado);
