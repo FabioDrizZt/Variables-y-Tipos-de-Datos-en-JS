@@ -13,6 +13,12 @@ console.log(division)
 let modulo = 14%4
 console.log(modulo)
 
+let potencia = 8**3 // 8 * 8 * 8
+console.log("potencia: " + potencia)
+
+let piquito = 8^3 // 8 = 1000 XOR 3 = 100
+console.log("piquito: " + piquito)
+
 let incrementadora = 1
 // pre incremento 
 console.log(++incrementadora) // 2
@@ -28,3 +34,12 @@ console.log(decrementadora--) // muestra 0 pero vale -1
 console.log(decrementadora) // muestra -1
 
 decrementadora = decrementadora-1
+
+let nombre = "Fabio"
+let apellido = "Argañaraz"
+let nombrecompleto = nombre + " " + apellido
+console.log(nombrecompleto)
+
+console.log(1+"1")
+console.log(1+"1")
+console.log("1"+"1")
